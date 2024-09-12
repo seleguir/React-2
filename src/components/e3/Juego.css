@@ -1,0 +1,35 @@
+.juego {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+  
+form {
+    margin-top: 20px;
+}
+  
+input[type="number"] {
+    padding: 8px;
+    margin-right: 5px;
+}
+  
+button {
+    padding: 8px 12px;
+    margin-right: 5px;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+  
+button:hover {
+    background-color: #0056b3;
+}
+  
+.mensaje {
+    margin-top: 20px;
+    font-size: 18px;
+    color: green;
+}
